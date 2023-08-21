@@ -1,0 +1,82 @@
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-bottom: double black 6px;
+   
+}
+.nav{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-bottom: solid 6px;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    width: 350px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+
+}
+
+.container a:hover{
+    color: blue;
+    font-weight: 900;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.card{
+    float: left;
+    margin-right: 50px;
+    background-color: wheat;
+    width: 25%;
+    height: 60vh;
+    /* display: flex;
+    justify-content: center; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.in{
+    display: flex;
+   
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.content input{
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
